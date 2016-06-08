@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE6382D1D086C32007E97EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6382C1D086C32007E97EC /* AppDelegate.swift */; };
+		CCE638321D086C32007E97EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE638301D086C32007E97EC /* Main.storyboard */; };
+		CCE638341D086C32007E97EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE638331D086C32007E97EC /* Assets.xcassets */; };
+		CCE638371D086C32007E97EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE638351D086C32007E97EC /* LaunchScreen.storyboard */; };
+		CCE6383F1D086C95007E97EC /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6383E1D086C95007E97EC /* NetworkController.swift */; };
+		CCE638431D086D30007E97EC /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE638421D086D30007E97EC /* Pokemon.swift */; };
+		CCE638451D086D40007E97EC /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE638441D086D40007E97EC /* PokemonController.swift */; };
+		CCE638471D08713C007E97EC /* PokemonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE638461D08713C007E97EC /* PokemonTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCE638291D086C32007E97EC /* Stretch problem Pokemon API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretch problem Pokemon API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6382C1D086C32007E97EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCE638311D086C32007E97EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCE638331D086C32007E97EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCE638361D086C32007E97EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCE638381D086C32007E97EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE6383E1D086C95007E97EC /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		CCE638421D086D30007E97EC /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		CCE638441D086D40007E97EC /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		CCE638461D08713C007E97EC /* PokemonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE638261D086C32007E97EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE638201D086C32007E97EC = {
+			isa = PBXGroup;
+			children = (
+				CCE6382B1D086C32007E97EC /* Stretch problem Pokemon API */,
+				CCE6382A1D086C32007E97EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE6382A1D086C32007E97EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE638291D086C32007E97EC /* Stretch problem Pokemon API.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE6382B1D086C32007E97EC /* Stretch problem Pokemon API */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6382C1D086C32007E97EC /* AppDelegate.swift */,
+				CCE6383E1D086C95007E97EC /* NetworkController.swift */,
+				CCE638421D086D30007E97EC /* Pokemon.swift */,
+				CCE638441D086D40007E97EC /* PokemonController.swift */,
+				CCE638461D08713C007E97EC /* PokemonTableViewController.swift */,
+				CCE638301D086C32007E97EC /* Main.storyboard */,
+				CCE638331D086C32007E97EC /* Assets.xcassets */,
+				CCE638351D086C32007E97EC /* LaunchScreen.storyboard */,
+				CCE638381D086C32007E97EC /* Info.plist */,
+			);
+			path = "Stretch problem Pokemon API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE638281D086C32007E97EC /* Stretch problem Pokemon API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE6383B1D086C32007E97EC /* Build configuration list for PBXNativeTarget "Stretch problem Pokemon API" */;
+			buildPhases = (
+				CCE638251D086C32007E97EC /* Sources */,
+				CCE638261D086C32007E97EC /* Frameworks */,
+				CCE638271D086C32007E97EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stretch problem Pokemon API";
+			productName = "Stretch problem Pokemon API";
+			productReference = CCE638291D086C32007E97EC /* Stretch problem Pokemon API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE638211D086C32007E97EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eva Bresciano";
+				TargetAttributes = {
+					CCE638281D086C32007E97EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WP96JMRW5V;
+					};
+				};
+			};
+			buildConfigurationList = CCE638241D086C32007E97EC /* Build configuration list for PBXProject "Stretch problem Pokemon API" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE638201D086C32007E97EC;
+			productRefGroup = CCE6382A1D086C32007E97EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE638281D086C32007E97EC /* Stretch problem Pokemon API */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE638271D086C32007E97EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE638371D086C32007E97EC /* LaunchScreen.storyboard in Resources */,
+				CCE638341D086C32007E97EC /* Assets.xcassets in Resources */,
+				CCE638321D086C32007E97EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE638251D086C32007E97EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6383F1D086C95007E97EC /* NetworkController.swift in Sources */,
+				CCE638431D086D30007E97EC /* Pokemon.swift in Sources */,
+				CCE638471D08713C007E97EC /* PokemonTableViewController.swift in Sources */,
+				CCE6382D1D086C32007E97EC /* AppDelegate.swift in Sources */,
+				CCE638451D086D40007E97EC /* PokemonController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCE638301D086C32007E97EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE638311D086C32007E97EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE638351D086C32007E97EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE638361D086C32007E97EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE638391D086C32007E97EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE6383A1D086C32007E97EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE6383C1D086C32007E97EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch problem Pokemon API/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example..Stretch-problem-Pokemon-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCE6383D1D086C32007E97EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch problem Pokemon API/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example..Stretch-problem-Pokemon-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE638241D086C32007E97EC /* Build configuration list for PBXProject "Stretch problem Pokemon API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE638391D086C32007E97EC /* Debug */,
+				CCE6383A1D086C32007E97EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE6383B1D086C32007E97EC /* Build configuration list for PBXNativeTarget "Stretch problem Pokemon API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6383C1D086C32007E97EC /* Debug */,
+				CCE6383D1D086C32007E97EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE638211D086C32007E97EC /* Project object */;
+}
